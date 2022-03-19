@@ -8,7 +8,7 @@ app = Flask(__name__)
 #Use flask_pymongo to set up mongo connection
 #Below tells Python that our app will onnect ot Mongo using a URI.
 #This URI is saying that the app can reach Mongo through our localhost server, using port 27017
-app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_app"
+app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_app_db"
 mongo = PyMongo(app)
 
 #tells Flask what to display when we're looking at the home page, index.html (index.html is the default HTML file that we'll use to display the content we've scraped). 

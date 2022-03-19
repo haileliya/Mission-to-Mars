@@ -77,7 +77,7 @@ def mars_news(browser):
 
 ###Featured Image Scraping
 
-def featured_image(browser)
+def featured_image(browser):
     # Visit URL
     url = 'https://spaceimages-mars.com'
     browser.visit(url)
@@ -111,7 +111,7 @@ def featured_image(browser)
 
 #Similar as above but will be adding BaseException for error handling. Use this because we are using read_html() function to pull data instead of beautiful soup and splinter
 
-def mars_facts()
+def mars_facts():
     
     #Add try/except for error handling
     try: 
